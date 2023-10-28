@@ -1,0 +1,28 @@
+@use 'variaveis';
+
+.footer{
+    .container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &_links{
+        margin-bottom: 16px;
+        &_item{
+            display: inline-block;
+            
+
+            a{
+                text-decoration: none;
+                padding: 8px 16px;
+                display: block;
+            }
+        }
+    }
+
+    p{
+        margin-bottom: 16px;
+    }
+}

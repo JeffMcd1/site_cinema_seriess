@@ -1,0 +1,32 @@
+.assista-ao-vivo{
+    padding: 5.6vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    @media (max-width:768px) {
+        grid-template-columns: 1fr 1fr;
+        display: block;
+    }
+
+    img{
+        max-width: 700px;
+    }
+
+    .assista-ao-vivo__text{
+        padding: 2vw;
+
+       
+
+        img{
+            max-width: 100px;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    h2{
+        margin-bottom: 24px;
+    }
+}
